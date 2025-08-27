@@ -123,11 +123,8 @@ public class AIRacer : MonoBehaviour, IRacer
 
     private void HandleCheckPointClearing()
     {
-        // Option 1: Using OverlapCircleAll (recommended for this use case)
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, _collisionRadius, _generalCollisionDetectionLayer);
 
-        // Option 2: Using CircleCastAll (if you specifically need casting)
-        // Collider2D[] colliders = Physics2D.CircleCastAll(transform.position, _collisionRadius, Vector2.up, 0f, _raycastLayer);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, _collisionRadius, _generalCollisionDetectionLayer);
 
         for (int i = 0; i < colliders.Length; i++)
         {
