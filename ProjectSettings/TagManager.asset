@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Bounds
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Barrier
+  - Water
+  - UI
+  - Player
+  - AI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FG1
+    uniqueID: 260924995
+    locked: 0
+  - name: FG2
+    uniqueID: 3939427341
+    locked: 0
+  - name: FG3
+    uniqueID: 1824211511
+    locked: 0
+  - name: FG4
+    uniqueID: 1663754753
+    locked: 0
+  m_RenderingLayers:
+  - Default
